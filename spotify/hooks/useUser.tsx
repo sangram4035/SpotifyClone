@@ -5,7 +5,6 @@ import {
   useSessionContext,
   useUser as useSupaUser,
 } from "@supabase/auth-helpers-react";
-import { promise } from "zod";
 
 type UserContextType = {
   accessToken: string | null;
